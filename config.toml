@@ -1,0 +1,18 @@
+theme = "onedarker"
+
+[editor]
+line-number = "absolute"
+rulers = [ 120 ]
+idle-timeout = 800
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "underline"
+select = "underline"
+
+[editor.statusline]
+center = ["file-encoding", "file-line-ending", "read-only-indicator" ]
+
+[editor.lsp]
+display-inlay-hints = true
+
